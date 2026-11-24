@@ -14,12 +14,15 @@ body{
     height: auto;
     background-color: white;
 }
+form{
+    padding:40px;
+}
 input[type="text"],
 input[type="email"],
 input[type="date"],
 #workshop{
-    height:20px;
-    width:200px ;
+    height:30px;
+    width:300px ;
     border-radius: 5px;  
 }
 button{
@@ -28,4 +31,5 @@ button{
     height: 30px;
     background-color: beige;
     color: black;
+    font-size: medium;
 }
