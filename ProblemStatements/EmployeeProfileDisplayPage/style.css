@@ -1,0 +1,18 @@
+#section1{
+    margin:50px 500px 30px 500px ;
+    text-align: center;
+    background-color:lightgrey;
+    border-radius: 10px;
+}
+.personalData{
+    align-items: center;
+}
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+th, td {
+    padding: 10px;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Expense Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="dashboardHeader">
+        <h1 id="head1">Monthly Expense Dashboard</h1>
+        <h2 id="name"></h2>
+        <p>November 2026</p>
+    </header>
+    <main>
+        <section>
+            <div id="incomeDetails">
+                <h4>Monthly Income</h4>
+                <h3 id="monthlyIn"></h3>
+                <h4>Total Monthly Expense</h4>
+                <h3 id="monExp"></h3>
+                <h4>Remaining Balance</h4>
+                <h3 id="balance"></h3>
+            </div>
+        </section>
+        <section>
+            <div id="expenseDetails">
+                <table>
+                    <th>Expense Category</th>
+                    <th>Amount</th>
+                    <tr>
+                        <td class="expensecat">House Rent</td>
+                        <td>12,000</td>
+                    </tr>
+                    <tr>
+                        <td class="expensecat">Food</td>
+                        <td>6000</td>
+                    </tr>
+                    <tr>
+                        <td class="expensecat">Transportation</td>
+                        <td>2500</td>
+                    </tr>
+                    <tr>
+                        <td class="expensecat">Electricity</td>
+                        <td>1500</td>
+                    </tr>
+                    <tr>
+                        <td class="expensecat">Entertainment</td>
+                        <td>3000</td>
+                    </tr>
+                    <tr>
+                        <td class="expensecat">Shopping</td>
+                        <td>4000</td>
+                    </tr>
+                    <tr>
+                        <td id="total"></td>
+                        <td id="amount"></td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <section>
+            <div id="expenseSummary">
+                <h4>Highest Expense Category</h4>
+                <h3 id="highCat"></h3>
+                <h4>Lowest Expense Category</h4>
+                <h3 id="lowCat"></h3>
+                <h4>Total Number of Expense Categories</h4>
+                <h3>6</h3>
+                <h4>Percentage of Income Spent</h4>
+                <h3 id="perc"></h3>
+            </div>
+            <div>
+                <h3 id="financialStatus">Financial Status</h3>
+                <p id="summery"></p>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

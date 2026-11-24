@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 20px;
+}
+#dashboardHeader {
+    background-color: lightblue;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+section {
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+#incomeDetails {
+    text-align: center;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th {
+    background-color: lightblue;
+    padding: 10px;
+}
+td {
+    border: 1px solid lightgray;
+    padding: 10px;
+    text-align: center;
+}
+#expenseSummary {
+    text-align: center;
+}
+#financialStatus {
+    text-align: center;
+}
+#summery {
+    text-align: center;
+    padding: 10px;
+    background-color: lightgreen;
+    border-radius: 5px;
+}
